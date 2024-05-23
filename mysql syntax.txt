@@ -1,0 +1,33 @@
+CREATE TABLE users (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  role VARCHAR(20) NOT NULL
+);
+
+INSERT INTO users(username, password, email, role) VALUES('admin', 'admin', 'admin@rajagaming.com', 'admin');
+
+CREATE TABLE services(
+  id INT PRIMARY KEY,
+  nama_transaksi VARCHAR(255)
+);
+
+INSERT INTO services VALUES (1, 'Rank Boosting'), (2, 'Winrate Improvement');
+
+CREATE TABLE penjualan (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  notes VARCHAR(255),
+  account_id VARCHAR(100),
+  account_password VARCHAR(255),
+  nomor_telepon VARCHAR(20),
+  user_id INT,
+  transaction_id INT,
+  current VARCHAR(20),
+  target VARCHAR(20),
+  duration VARCHAR(20),
+  order_date DATE,
+  status VARCHAR(20),
+  FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
+  FOREIGN KEY (transaction_id) REFERENCES services(id)
+);

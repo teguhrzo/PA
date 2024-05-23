@@ -1,0 +1,199 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-image: url(assets/Background-Login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.logo{
+    justify-content: center;
+    position: fixed;
+    overflow: visible;
+}
+
+.container-signin{
+    margin-top:100px;
+    border-radius: 15px;
+}
+
+.signin-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 80px;
+    background-color: #1e1f26;
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.signin-input {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 500px;
+    height: 700px;
+    background-color: #404258;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    padding-top: 20px;
+}
+
+.kotak {
+    border: 1px solid whitesmoke;
+    margin: 5px 20px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.kotak p{
+    color: white;
+}
+
+.kotak h3{
+    text-align: left;
+    color: white;
+    margin-left: 25px;
+}
+
+.kotak input:last-child{
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: black;
+    width: 400px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: medium;
+    color: whitesmoke;
+    border: none;
+}
+
+.tombol {
+    background-color: #1e1f26;
+    font-weight: bold;
+}
+
+.tombol:hover{
+    background-color: #121214;
+}
+
+a{
+    color: #5DF5FE;
+    text-decoration: none;
+}
+
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+
+.kotak p a:hover {
+    color: rgb(14, 14, 100);
+}
+
+p:hover{
+    color: white;;
+}
+
+.alert {
+    padding: 20px; 
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    width: 30vw;
+    height: 1vw;
+    border-radius: 10px;
+    z-index: 9999;
+    position: absolute;
+    top: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+.topnav img{
+    float: left;
+    margin-right: 50%;
+    top: 20%;
+    margin-left: 100%;
+}
+
+.menu{
+    float:right;
+    padding: 14px 52px;
+    margin-right: 10%;
+}
+
+.save-button{
+    margin-top: 20px;
+    border: 1px solid #4ed206;  
+    background-color: black;
+    color: #4ed206;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 15pt;
+}
+
+.save-button:hover{
+    background-color: #3ca304;
+    border: 1px solid #3ca304;  
+    color:white;
+}
+
+.delete-button{
+    margin-top: 20px;
+    border: 1px solid #B70404;  
+    background-color: black;
+    color: #B70404;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 15pt;
+}
+
+.delete-button:hover{
+    background-color: #B70404;
+    border: 1px solid #B70404;  
+    color:white;
+}
+
+.del-save{
+    width: 500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#user{
+    border-bottom: 1px solid #5DF5FE;
+    box-shadow: 0 3px #5DF5FE;
+}

@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter' ,Arial, Helvetica, sans-serif;
+    overflow: visible;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --ijo-biru: #5DF5FE;
+    --tulisan-kecil: 16px;
+    --tulisan-besar: 48px;
+    --tulisan-judul: 24px;
+    --bg-box-container: #0B0C0F;
+    --warna-box: #1E1E1E;
+}
+
+p{
+    font-size: var(--tulisan-kecil);
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+.topnav img{
+    float: left;
+    margin-right: 50%;
+    top: 20%;
+    margin-left: 100%;
+}
+
+.menu{
+    float:right;
+    padding: 14px 52px;
+    margin-right: 10%;
+}
+
+
+.topnavbar .menu-item.active{
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+
+
+.Logo-subpart{
+    height: 400px;
+    width: 500px;;
+    margin-left:10%;
+}   
+
+.Logo-ML{   
+    height: 232.94798278808594px;
+    width: 400px;
+    left: 146px;
+    top: 58px;
+    border-radius: 0px;
+}
+
+.top-content{
+    margin: 20px 5%; 
+    padding: 104px 0px;
+    display: flex;
+}
+
+.ijo-biru-line{
+    height: 0px;
+    width: 65px;
+    border: 1px solid var(--ijo-biru);
+    box-shadow: 0 0 20px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 40px var(--ijo-biru), 0 0 50px var(--ijo-biru), 0 0 60px var(--ijo-biru), 0 0 70px var(--ijo-biru), 0 0 80px var(--ijo-biru);
+}
+
+.subpart{
+    display: inline-flex;
+    margin-left: 15%;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+}
+
+.subpart h1{
+    font-size: var(--tulisan-judul);
+    margin-left: 28px;
+}
+
+.service-details{
+    height: 633px;
+    width: 686px;
+    background-color:var(--warna-box);
+    overflow: visible;
+}
+
+.service-details-num{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--ijo-biru);
+    margin-top: -25px;
+    margin-left: 62px;  
+    padding: 0px;
+}
+
+.service-details-num h2{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: var(--tulisan-judul);
+}
+
+.service-details-content h2{
+    margin-left:125px;
+    font-size: var(--tulisan-judul);
+    margin-top: -15px;
+}
+
+.service-details-content table{
+    text-align: left;
+    margin-left: 125px;
+    border-spacing: 0px 15px;
+}
+
+.service-details-content td{
+    width: 230px;
+    margin: 0px 20px;
+    padding-right: 40px;
+}
+
+.service-details-content select{
+    width: 230px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    padding-left: 10px;
+    border: 1px solid var(--ijo-biru);
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 15px;
+
+    background-image: url('assets\\arrow-down-sign-to-navigate.png');
+    background-repeat: no-repeat;
+    background-position: 200px center;
+    background-size: 20px;
+}
+
+.service-details-content textarea{
+    resize: none;
+    color: white;
+    background-color: black;
+    font-size: var(--tulisan-kecil);
+    border: 1px solid var(--ijo-biru);
+}
+
+.bottom-content{
+    margin: 0px 5%; 
+    display:flex;
+    padding: 0px 0px 10%;
+}
+
+.square-button{
+    border: 1px solid var(--ijo-biru);
+    background-color: black;
+    padding: 12px 34px;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+}
+
+.square-button:hover{
+    color: var(--ijo-biru);
+}
+
+.service-details2{
+    height: 300x;
+    width: 686px;
+    margin-left: 46%;
+    background-color:var(--warna-box);
+    overflow: visible;
+}

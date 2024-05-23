@@ -1,0 +1,112 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(assets/Background-Login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.logo{
+  justify-content: center;
+  position: fixed;
+  overflow: visible;
+}
+
+.container-signin{
+  margin-top:125px;
+  border-radius: 15px;
+}
+
+.signin-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 80px;
+  background-color: #1e1f26;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.signin-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 500px;
+  height: 440px;
+  background-color: #404258;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  padding-top: 20px;
+}
+
+.kotak {
+  border: 1px solid whitesmoke;
+  margin: 5px 20px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.kotak p{
+  color: white;
+}
+
+input {
+  background-color: black;
+  width: 400px;
+  height: 50px;
+  margin: 20px 0px;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: medium;
+  color: whitesmoke;
+  border: none;
+}
+
+.tombol {
+  background-color: #1e1f26;
+  font-weight: bold;
+}
+
+.tombol:hover{
+  background-color: #121214;
+}
+
+a{
+  color: #5DF5FE;
+  text-decoration: none;
+}
+
+a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+.kotak p a:hover {
+  color: rgb(14, 14, 100);
+}
+
+p:hover{
+  color: white;;
+}
+  
+.alert {
+  padding: 20px; 
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  width: 50vw;
+  height: 1vw;
+  border-radius: 10px;
+  z-index: 9999;
+  position: absolute;
+  top: 20px;
+}

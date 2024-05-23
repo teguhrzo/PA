@@ -1,0 +1,100 @@
+:root{
+    --ijo-biru: #5DF5FE;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter' ,Arial, Helvetica, sans-serif;
+}
+
+
+.content{
+    padding-top: 100px;
+    display:flex;
+    justify-content: center;
+}
+
+/* tr, td{
+    padding: 10px 50px 10px 5px;
+} */
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#transaction{
+    border-bottom: 1px solid #5DF5FE;
+    box-shadow: 0 3px #5DF5FE;
+}
+
+.topnav img{
+    float: left;
+    margin-right: 50%;
+    top: 20%;
+    margin-left: 100%;
+}
+
+.menu{
+    float:right;
+    padding: 14px 52px;
+    margin-right: 10%;
+}
+
+.topnavbar .menu-item.active{
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+table tr td{
+    border: 1px solid #5DF5FE;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.square-button{
+    border: 1px solid #4ed206;  
+    background-color: black;
+    color: #4ed206;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.square-button:hover{
+    background-color: #3ca304;
+    border: 1px solid #3ca304;  
+    color:white;
+}
+
+.delete-button{
+    border: 1px solid red;
+    background-color: black;
+    color: red;
+    padding: 5px 15px;
+    border-radius: 4px;
+}
+
+.delete-button:hover{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+}
+
+#user-page {
+    border-bottom: 1px solid #5DF5FE;
+    box-shadow: 0 3px #5DF5FE;
+}

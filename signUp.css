@@ -1,0 +1,90 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(assets/Background-Login.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Inter' ,Arial, Helvetica, sans-serif;
+  overflow: visible;
+}
+
+.logo{
+  margin:auto;
+}
+
+.container-signUp{
+  margin:auto;
+  border-radius: 15px;
+}
+
+.signup-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 80px;
+  background-color: #1e1f26;
+  text-align: center;
+  color: whitesmoke;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.signup-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  background-color: #404258;
+  text-align: center;
+  border-radius: 0px 0px 15px 15px;
+  padding-top: 20px;
+}
+
+.kotak {
+  border: 1px solid whitesmoke;
+  margin: 5px 20px;
+  width: 450px;
+  border-radius: 10px;
+}
+
+.kotak p{
+  color: white;
+}
+
+input {
+  background-color: #1e1f26;
+  width: 400px;
+  height: 50px;
+  margin: 20px 0px;
+  border-radius: 7px;
+  padding: 5px;
+  font-size: medium;
+  color: whitesmoke;
+  border: none;
+}
+
+.tombol {
+  background-color: #1e1f26;
+  font-weight: bold;
+}
+
+.tombol:hover{
+  background-color: #121214;
+}
+
+a{
+  color: #5DF5FE;
+  text-decoration: none;
+}
+
+.kotak p a:hover {
+  color: rgb(14, 14, 100);
+}

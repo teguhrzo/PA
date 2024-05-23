@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter' , Arial, Helvetica, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --ijo-biru: #5DF5FE;
+    --tulisan-kecil: 16px;
+    --tulisan-besar: 48px;
+    --tulisan-judul: 24px;
+    --bg-box-container: #0B0C0F;
+}
+
+p{
+    font-size: var(--tulisan-kecil);
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: black;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+.topnav img{
+    float: left;
+    margin-right: 50%;
+    top: 20%;
+    margin-left: 100%;
+}
+
+.menu{
+    float:right;
+    padding: 14px 52px;
+    margin-right: 10%;
+}
+
+
+.topnavbar .menu-item.active{
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+
+.top-text{
+    width: auto;
+    color: white;
+    margin-top: 10%;
+    display: inline-block;
+    float: left;
+    margin-left: 5%;
+    background-color: black;
+}
+
+.top-text h1{
+    font-size: var(--tulisan-besar);
+}
+
+.ijo-biru{
+    color: var(--ijo-biru);
+}
+
+.getting-start{
+  padding: 10px 20px;
+  min-width: 150px;
+  max-width: 300px;
+  min-height: 43px;
+  background-color: #000000;
+  color: white;
+  border: 1px solid var(--ijo-biru);
+  font-size: var(--tulisan-kecil);
+}
+
+.getting-start:hover{
+    background-color: black;
+    color: var(--ijo-biru);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+}
+
+.Logo-ML{
+    max-height: 403px;
+    max-width: 692px;
+    left: 694px;
+    top: 58px;
+    border-radius: 0px;
+    margin-top: 5%;
+    margin-left: 13%;
+    min-height: 200px;
+    min-width: 300px;
+}
+
+.box-container1{
+    background-color: #0B0C0F;
+    width: 240px;
+    height: 240px;
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.box-container1 p{
+    margin: 0px 12px;
+}
+
+.ijo-biru-line{
+    height: 0px;
+    width: 65px;
+    border: 1px solid var(--ijo-biru);
+    box-shadow: 0 0 20px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 40px var(--ijo-biru), 0 0 50px var(--ijo-biru), 0 0 60px var(--ijo-biru), 0 0 70px var(--ijo-biru), 0 0 80px var(--ijo-biru);
+}
+
+.box-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.vl{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.garis-vertical{
+    border-left: 2px solid var(--ijo-biru);
+    height: 65px;
+    box-shadow: 0 0 20px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 40px var(--ijo-biru), 0 0 50px var(--ijo-biru), 0 0 60px var(--ijo-biru), 0 0 70px var(--ijo-biru), 0 0 80px var(--ijo-biru);
+    left: 50%;
+}
+
+.services{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+}
+
+.services hr{
+    margin-left: 0%;
+}
+
+.services h1{
+    font-size: var(--tulisan-besar);
+    margin-left: 28px;
+}
+
+.sub-headline-text{
+    color: var(--ijo-biru);
+    margin-left: 5%;
+}
+
+.frame-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-container2{
+    height: 330px;
+    width: 240px;
+    left: 210px;
+    top: 1155px;
+    border-radius: 0px;
+    background-color: var(--bg-box-container);
+    margin: 0 20px;
+    text-align: center;
+}
+
+
+#last-child-container2{
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+.box-container2 h3{
+    margin-top: 44px;
+    margin-bottom: 13px;
+}
+
+.box-container2 p{
+    margin: 33px 15px;
+    height: 80px;
+}
+
+.square-button{
+    border: 1px solid var(--ijo-biru);
+    display: inline-block;
+    padding: 12px 34px;
+    color: white;
+}
+
+.square-button:hover{
+    background-color: black;
+    color: var(--ijo-biru);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+}
+
+.box-container3{
+    height: 370px;
+    width: 240px;
+    left: 210px;
+    top: 1155px;
+    border-radius: 0px;
+    background-color: #1E1E1E;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.box-container3 img{
+    margin: 33px 15px 0px;
+}
+
+.box-container3 p{
+    margin: 33px 15px;
+    height: 80px;
+}
+
+.box-container3 .rating{
+    margin-top: 130px;
+    bottom:0;
+}
+
+.rating i{
+    margin: 0 3px;
+}
+
+.testimonials{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+}
+
+.fa-quote-right{
+    margin-top:28px;
+}
+
+.testimonials h1{
+    font-size: var(--tulisan-besar);
+    margin-left: 28px;
+}
+
+.about-us{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 5%;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+}
+
+.about-us h1{
+    font-size: var(--tulisan-besar);
+    margin-left: 28px;
+}
+
+.img-about-us{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 53px;
+}
+
+.left-frame-about-us{
+    margin-right: 11px;
+}
+
+.left-frame-about-us img{
+    height: 530px;
+}
+
+.right-frame-about-us{
+    flex-direction: column;
+    width: 530px;
+    display: flex;
+}
+
+.right-frame-about-us img{
+    max-width: 100%;
+    margin: 0 11px 0 0;
+}
+
+.right-frame-about-us img:last-child{
+   margin-top: 11px;
+}
+
+.text-about-us{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+.about-us-text-frame{
+    height: 132px;
+    width: 250px;
+    margin: 0px 70px;
+}
+
+.garis-vertical-about-us{
+    border-left: 2px solid var(--ijo-biru);
+    height: 132px;
+    box-shadow: 0 0 20px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 40px var(--ijo-biru), 0 0 50px var(--ijo-biru), 0 0 60px var(--ijo-biru), 0 0 70px var(--ijo-biru), 0 0 80px var(--ijo-biru);
+    left: 50%;
+}
+
+.judul{
+    font-size: var(--tulisan-judul);
+}
+
+/* social */
+
+.fa{
+    color: white;
+}
+
+.social-media .fa:hover{
+    transform: scale(1.25)
+}
+
+.social-media{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    margin: 0px 3%;
+}
+
+.contact-us{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.contact-us h1{
+    margin:5%;
+    font-size: var(--tulisan-besar);
+}

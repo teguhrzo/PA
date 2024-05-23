@@ -1,0 +1,451 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter' ,Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    /* max-width: 100%; */
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+
+}
+
+.kanan{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-left: 150px;
+}
+
+:root{
+    --ijo-biru: #5DF5FE;
+    --tulisan-kecil: 16px;
+    --tulisan-besar: 48px;
+    --tulisan-judul: 24px;
+    --bg-box-container: #0B0C0F;
+    --warna-box: #1E1E1E;
+}
+
+p{
+    font-size: var(--tulisan-kecil);
+}
+
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    /* height:50px; */
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active {
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+.topnav img{
+    float: left;
+    margin-right: 50%;
+    top: 20%;
+    margin-left: 100%;
+}
+
+.menu{
+    float:right;
+    padding: 14px 52px;
+    margin-right: 10%;
+}
+
+
+.topnavbar .menu-item.active{
+    border-bottom: 1px solid var(--ijo-biru);
+    box-shadow: 0 3px var(--ijo-biru);
+}
+
+
+
+.Logo-subpart{
+    height: 400px;
+    width: 500px;;
+    margin-left:10%;
+}   
+
+.Logo-ML{   
+    height: 232.94798278808594px;
+    width: 400px;
+    left: 146px;
+    top: 58px;
+    border-radius: 0px;
+}
+
+.top-content{
+    margin: 0px 5%; 
+    padding: 120px 0px;
+    display: flex;
+
+}
+
+.ijo-biru-line{
+    height: 0px;
+    width: 65px;
+    border: 1px solid var(--ijo-biru);
+    box-shadow: 0 0 20px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 40px var(--ijo-biru), 0 0 50px var(--ijo-biru), 0 0 60px var(--ijo-biru), 0 0 70px var(--ijo-biru), 0 0 80px var(--ijo-biru);
+}
+
+.subpart{
+    display: inline-flex;
+    margin-left: 15%;
+    align-items: center;
+    width: fit-content;
+    text-align: left;
+}
+
+.subpart h1{
+    font-size: var(--tulisan-judul);
+    margin-left: 28px;
+}
+
+.service-details{
+    height: 435px;
+    width: 686px;
+    background-color:var(--warna-box);
+    overflow: visible;
+}
+
+.service-details-num{
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--ijo-biru);
+    margin-top: -25px;
+    margin-left: 40px;  
+    padding: 0px;
+}
+
+.service-details-account-frame{
+    display:flex;
+}
+
+.service-details-num h2{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 10px;
+    font-size: var(--tulisan-judul);
+}
+
+.service-details-content h2{
+    margin-left:125px;
+    font-size: var(--tulisan-judul);
+    margin-top: -15px;
+}
+
+.service-details-content table{
+    text-align: left;
+    margin-left: 125px;
+    border-spacing: 0px 15px;
+}
+
+.service-details-content td{
+    width: 230px;
+    margin: 0px 20px;
+    padding-right: 40px;
+}
+
+.service-details-content select{
+    width: 230px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    padding-left: 10px;
+    border: 1px solid var(--ijo-biru);
+
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 15px;
+
+    background-image: url('assets\\arrow-down-sign-to-navigate.png');
+    background-repeat: no-repeat;
+    background-position: 200px center;
+    background-size: 20px;
+}
+
+.service-details-content textarea{
+    resize: none;
+    color: white;
+    background-color: black;
+    font-size: var(--tulisan-kecil);
+    border: 1px solid var(--ijo-biru);
+}
+
+.bottom-content{
+    display:flex;
+    padding: 0px 0px 10%;
+}
+
+.square-button{
+    border: 1px solid var(--ijo-biru);
+    background-color: black;
+    padding: 12px 34px;
+    color: white;
+    font-size: var(--tulisan-kecil);
+}
+
+.square-button:hover{
+    color: var(--ijo-biru);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+}
+
+.service-details2{
+    height: 300x;
+    width: 686px;
+    background-color:var(--warna-box);
+    overflow: visible;
+}
+
+.service-details-account{
+    display:block;
+    height: 633px;
+    width: 686px;
+    background-color:var(--warna-box);
+    overflow: visible;
+}
+
+.service-details-account-duo{
+    display:block;
+    height: 500px;
+    width: 686px;
+    background-color:var(--warna-box);
+    overflow: visible;
+}
+
+.service-details-content input[type="text"]{
+    width: 230px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    padding-left: 10px;
+    border: 1px solid var(--ijo-biru);
+}
+
+.service-details-content input[type="password"]{
+    width: 230px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    padding-left: 10px;
+    border: 1px solid var(--ijo-biru);
+}
+
+.service-details-content input[type="tel"]{
+    width: 230px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    font-size: var(--tulisan-kecil);
+    padding-left: 10px;
+    border: 1px solid var(--ijo-biru);
+}
+
+.popup-success{
+    height: 510px;
+    width: 700px;
+    border-radius: 0px;
+    background:#0B0C0F;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup-terms{
+    height: 725px;
+    width: 700px;
+    border-radius: 0px;
+    background:#0B0C0F;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 9999;
+    display: none;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup-terms p,ul{
+    padding: 5px 24px;
+    font-size: var(--tulisan-kecil);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); /* Apply blur effect to the overlay */
+    z-index: 9998;
+    display: none;
+}
+
+.open-popup{
+    /* top: 210%; */
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popupTerms{
+    /* top: 130%; */
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.popup-success p{
+    padding: 15px 24px;
+    font-size: var(--tulisan-kecil);
+}
+
+.square-button-popup{
+    margin-left: auto;
+    border: 1px solid var(--ijo-biru);
+    background-color: black;
+    padding: 12px 50px;
+    color: white;
+    font-size: var(--tulisan-kecil);
+}
+
+.popup-option{
+    display:flex;
+    padding: 0px 5% 0px 5%;
+}
+
+.square-button-popup:hover{
+    color: var(--ijo-biru);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+}
+
+.terms-condition{
+    height: 97px;
+    width: 522px;
+    left: 651px;
+    top: 501px;
+    border-radius: 0px;
+    background-color: black;
+    border: 1px solid var(--ijo-biru);
+    margin:0;
+    padding:0px;
+}
+
+.terms-condition p{
+    margin: 11px 12px 0px;
+}
+
+input[type="checkbox"]{
+    color: black;
+    background-color: black;
+}
+
+input[type="checkbox"]::before{
+    color: black;
+    background-color: black;
+    accent-color: black;
+}
+
+
+.checkbox-container {
+    position: relative;
+    display: inline-block;
+    padding-left: 25px; /* Adjust the spacing between the checkbox and label */
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: black; /* Modify the checkbox background color */
+    border: 1px solid var(--ijo-biru); /* Add a border to the checkbox */
+  }
+  
+  
+  /* Optional styles for the label */
+  .checkbox-container label {
+    padding-left: 30px; /* Adjust the spacing between the checkbox and label */
+  }
+
+  .checkbox-container input:checked ~ .checkmark::after {
+    content: "\2713"; /* Unicode value for checkmark symbol */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: white;
+    size: var(--tulisan-kecil);
+  }
+  
+
+  .close-btn{
+    padding: 10px 20px;
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 43px;
+    background-color: #000000;
+    color: white;
+    border: 1px solid var(--ijo-biru);
+    font-size: var(--tulisan-kecil);
+  }
+
+  .close-btn:hover{
+    color: var(--ijo-biru);
+    box-shadow: 0 0 10px var(--ijo-biru), 0 0 20px var(--ijo-biru), 0 0 5px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 10px var(--ijo-biru), 0 0 30px var(--ijo-biru), 0 0 50px var(--ijo-biru);
+  }
+
+  .emphasize{
+    color: var(--ijo-biru);
+  }
